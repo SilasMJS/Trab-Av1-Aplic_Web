@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aquamarine;
+        }
+        .container{
+            width: 70%;
+            margin: 0 auto;
+        }
+        textarea[name=comentario]{
+            margin-top: 1%;
+        }
+        fieldset{
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(6, 160, 160);
+            
+        }
+        legend{
+            background-color: rgb(174, 228, 228);
+            margin-left: 5px;
+            border-radius: 5px;
+        }
+        input[type=submit] , input[type=reset]{
+            font-style: italic;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin-left: 20px;
+            background-color: rgb(105, 224, 141);
+            border-radius: 5px;
+            border: none;
+        }
+        input[type=submit]:hover, input[type=reset]:hover{
+            cursor: pointer;
+            background-color: rgb(101, 170, 55);
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main class="container">
+        <form class="form" action="concluido.html" method="post">
+            <fieldset class="box-form">
+                <legend>CADASTRE-SE</legend>
+                <label for="nome">Nome Completo:</label>
+                <input type="text" required placeholder="Seu Nome Completo!"><br>
+                <label for="email">E-mail:</label>
+                <input type="email" required placeholder="seuemail@gmail.com"><br>
+                <label for="tell">Telefone:</label>
+                <input type="tel" name="tell" id="tell" placeholder="88999999999"><br>
+                <label for="comentario">Comentario:</label> <br>
+                <textarea name="comentario" id="comentario" cols="30" rows="10"
+                    placeholder="Deixe seu Comentario aqui!"></textarea> <br>
+                <label for="deseja">Deseja Receber nossas Novidade? <input type="radio" name="deseja" id="" checked>Sim <input type="radio" name="deseja" id="">Não</label> <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+                
+            </fieldset >
+            <a href="index.html">Voltar</a>
+
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
