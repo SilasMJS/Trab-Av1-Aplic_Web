@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="/Trabalho1/imagens/cadastro/local-na-rede-internet3.png" type="image/x-icon">
+    <title>Cadastro</title>
 
     <style>
         body {
@@ -17,6 +18,11 @@
             align-items: center;
             background-color: aquamarine;
         }
+        input[type=text], input[type=email], input[type=tel]{
+            border-radius: 5px;
+            border: none;
+            padding-left: 4px;
+        }
         .container{
             width: 70%;
             margin: 0 auto;
@@ -28,6 +34,8 @@
             border: none;
             border-radius: 5px;
             background-color: rgb(6, 160, 160);
+            margin-bottom: 5px;
+        
             
         }
         legend{
@@ -38,14 +46,29 @@
         input[type=submit] , input[type=reset]{
             font-style: italic;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            margin-left: 20px;
             background-color: rgb(105, 224, 141);
             border-radius: 5px;
             border: none;
+            margin: 10px  20px 5px 15px;
         }
         input[type=submit]:hover, input[type=reset]:hover{
             cursor: pointer;
             background-color: rgb(101, 170, 55);
+        }
+
+        a{
+
+            background-color: rgb(175, 175, 237);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style: italic;
+            color: black;
+            padding: 4px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+        a:hover{
+            background-color: rgb(129, 181, 226);
+            cursor: pointer;
         }
 
     </style>
