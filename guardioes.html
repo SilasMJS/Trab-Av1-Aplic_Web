@@ -15,7 +15,7 @@
         body {
             width: 100%;
             text-align: center;
-            background-color: rgb(67, 88, 57);
+            background-color: rgb(75, 129, 160);
 
         }
 
@@ -38,9 +38,13 @@
         }
 
         .bar {
+            background-color: rgb(138, 72, 72);
             display: flex;
             justify-content: center;
             justify-content: space-around;
+            padding: 1px;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
 
         ul {
@@ -52,7 +56,6 @@
             /* border: 1px solid; */
             border-radius: 5px;
             padding: 5px;
-            margin: 10px 0px;
 
         }
 
@@ -78,8 +81,9 @@
         }
 
         .rodape {
-            background-color: rgb(66, 145, 145);
+            background-color: rgb(124, 128, 82);
             padding: 20px;
+            margin-top: 10px;
         }
 
         .rodape>h4>a:hover {
@@ -93,7 +97,12 @@
 
     </header>
     <main>
-        <h1>Resumo do Filme</h1>
+        <h1><a name="inicio" href="">Resumo do Filme: Guardiões da Galáxia Vol. 3</a></h1>
+        <ul class="bar">
+            <li><a class="nav" href="/index.html">Filmes</a></li>
+            <li><a class="nav" href="#trilha">Trilha Sonora</a></li>
+            <li><a class="nav" href="#trailer">Trailer</a></li>
+        </ul>
         <h2>Sinopse Oficial</h2>
         <p>Em Guardiões da Galáxia Vol. 3, o amado grupo de desajustados busca se estabelecer em Lugar Nenhum, mas não
             demora muito para que suas vidas sejam reviradas pelos ecos do passado turbulento de Rocket (Bradley
@@ -146,14 +155,14 @@
             o Rocket desde sempre. É o ponto mais emotivo do filme e ao final, a grande catarse.</p>
         <p>A história dele é muito triste, não tem como você não chorar, você consegue sentir o que ele passou nas mãos
             do Alto Evolucionário, é sofrido e pesado a maneira como é contado a história dele.</p>
-        <h2>Trilha Sonora</h2>
+        <h2><a name="trilha" href="#inicio">Trilha Sonora</a></h2>
         <img src="imagens/guardioes/awesome-mix.png" alt="" width="300"><br>
 
         <audio controls src="audio/guardioes/Guardiões da galáxia música do começo do filme.mp3"
             type="audio/mp3"></audio>
 
 
-        <h2>Videos</h2>
+        <h2><a name="trailer" href="#inicio">Trailer</a></h2>
         <video controls
             src="videos/guardioes/Guardiões da Galáxia_ Volume 3 _ Marvel Studios _ Trailer Oficial 2 Dublado (1).mp4"
             width="750" type="video/mp4"></video>
